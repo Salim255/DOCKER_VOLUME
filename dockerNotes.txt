@@ -1,0 +1,12 @@
+##Volumes an Docker container
+
+//Two type of External Data Storage:
+    Volumes and Bind Mounts
+
+\\\ There are two types of Volumes:
+1)- Anonymous Volumes  2)- Named Volumes
+
+In Both cases Docker set up a folder /path on your host machine,
+ exact location is unknown to you (=dev).
+ $Manged vi docker volume commands.$
+
