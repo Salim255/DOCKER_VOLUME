@@ -10,3 +10,12 @@ In Both cases Docker set up a folder /path on your host machine,
  exact location is unknown to you (=dev).
  $Manged vi docker volume commands.$
 
+        //// docker volume ls
+* If we stoped the docker container the Anonymous valumes will disappear 
+
+
+* Named Volumes : is a defined path in the container is mapped to the 
+created volume/mount.
+e.g/some-path on your hosting machine is mapped to /app/data
+
+**We cant create name Volumes inside a docker file.
